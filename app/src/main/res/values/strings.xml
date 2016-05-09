@@ -1,0 +1,39 @@
+<resources>
+
+    <string name="app_name">Sunshine</string>
+
+    <!-- Menu items title -->
+    <string name="action_refresh">Refresh</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_show_on_map">Open Preferred Code On Map</string>
+    <string name="action_share">Share</string>
+
+    <!-- Activty Titles -->
+    <string name="title_activity_details">Details</string>
+    <string name="title_activity_settings">Settings</string>
+
+    <!-- Data to build settings item postal code-->
+    <string name="pref_postal_code_label">Postal Code</string>
+    <string name="pref_postal_code_key">postal_code</string>
+    <string name="pref_default_postal_code">560008</string>
+
+
+
+    <!-- Data to build settings item temperature unit-->
+    <string name="pref_temperature_unit_label">Temperature Units</string>
+    <string name="pref_temperature_unit_key">temperature</string>
+    <string name="pref_temperature_unit_value_metric">metric</string>
+    <string name="pref_temperature_unit_value_imperial">imperial</string>
+    <string name="pref_default_temperature_unit">@string/pref_temperature_unit_value_metric</string>
+
+    <array name="pref_temperature_units_entries">
+        <item>Metric</item>
+        <item>Imperial</item>
+    </array>
+    <array name="pref_temperature_units_values">
+        <item>@string/pref_temperature_unit_value_metric</item>
+        <item>@string/pref_temperature_unit_value_imperial</item>
+    </array>
+
+
+</resources>

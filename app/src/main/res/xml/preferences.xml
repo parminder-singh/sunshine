@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <EditTextPreference
+        android:defaultValue="@string/pref_default_postal_code"
+        android:key="@string/pref_postal_code_key"
+        android:title="@string/pref_postal_code_label" />
+    <ListPreference
+        android:key="@string/pref_temperature_unit_key"
+        android:entries="@array/pref_temperature_units_entries"
+        android:entryValues="@array/pref_temperature_units_values"
+        android:defaultValue="@string/pref_default_temperature_unit"
+        android:title="@string/pref_temperature_unit_label" />
+</PreferenceScreen>
